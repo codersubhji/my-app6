@@ -1,0 +1,139 @@
+.main-div{
+    
+    width: 200px;
+    background-image: linear-gradient(to right, rgba(239, 222, 222, 0.626),rgb(240, 165, 240));
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px black;
+   
+}
+.main-div h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 0.2rem;
+    
+}
+.icon{
+    font-size: 20px;
+    font-weight: 600;
+    color: blueviolet;
+    text-align: left !important;
+    margin-left: 1.5rem;
+    margin-top: 0.2rem;
+}
+.num{
+    margin-left: 1.5rem;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: -0.7rem;
+
+}
+.line{
+    width: 2px;
+    height: 18px;
+    background-color: #000;
+    margin-top: 0.4rem;
+    margin-left: 0.5rem;
+    opacity: 0.4;
+}
+.team{
+    margin-left: 0.5rem;
+    margin-top: 0.1rem;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 0.7;
+}
+.span-1{
+    color: rgb(0, 157, 255);
+}
+
+@media (min-width:200px) and (max-width:350px) {
+    .main-div h3{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 0.2rem;
+        
+    }
+    .icon{
+        font-size: 16px;
+        font-weight: 600;
+        color: blueviolet;
+        text-align: left !important;
+        margin-left: 0.5rem;
+        margin-top: 0.2rem;
+    }
+    .line{
+        width: 2px;
+        height: 15px;
+        margin-top: 0.2rem;
+        margin-left: 0.5rem;
+        opacity: 0.4;
+    }
+    .main-div{
+    
+        width: 120px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 8px black;
+    }
+    .team{
+        margin-left: 0.5rem;
+        margin-top: 0rem;
+        font-size: 13px;
+        opacity: 0.7;
+    }
+    .num{
+        margin-left: 0.5rem;
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: -0.4rem;
+    
+    }
+}
+
+
+
+
+@media (min-width:350px) and (max-width:500px) {
+    .main-div h3{
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 0.2rem;
+        
+    }
+    .icon{
+        font-size: 16px;
+        font-weight: 600;
+        color: blueviolet;
+        text-align: left !important;
+        margin-left: 1.5rem;
+        margin-top: 0.2rem;
+    }
+    .line{
+        width: 2px;
+        height: 15px;
+        margin-top: 0.2rem;
+        margin-left: 0.5rem;
+        opacity: 0.4;
+    }
+    .main-div{
+    
+        width: 150px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 8px black;
+    }
+    .team{
+        margin-left: 0.5rem;
+        margin-top: 0rem;
+        font-size: 13px;
+        opacity: 0.7;
+    }
+    .num{
+        margin-left: 1.5rem;
+        font-size: 13px;
+        font-weight: 400;
+        margin-top: -0.4rem;
+    
+    }
+}

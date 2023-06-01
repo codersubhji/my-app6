@@ -1,0 +1,16 @@
+.heading{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+
+}
+
+@media (min-width:600px) {
+    .heading{
+        font-size: 30px;
+        font-weight: 700;
+        margin-top: 0.8rem;
+    }
+
+}

@@ -1,0 +1,67 @@
+.main-div-box{
+    width: 100%;
+    margin-top: -0.5rem;
+}
+.main-h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+.btn-double{
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.btn-double button{
+    width: 40%;
+    padding: 5px;
+    border-radius: 30px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    background-image: linear-gradient(to right, rgba(218, 193, 193, 0.913),rgb(253, 62, 253));
+
+}
+.btn-double button:hover{
+    background-image: linear-gradient(to right, rgba(215, 125, 125, 0.913),rgb(136, 3, 136));
+
+}
+.list-of-both{
+    /* border: 2px solid red; */
+    overflow: scroll;
+    
+}
+.list-both{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.left-side{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 0.5rem;
+    
+}
+.right-side{
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 0.5rem;
+}
+.last-para{
+    margin-top: -0.6rem;
+}
+.last{
+    margin-top: -0.6rem;
+    color: orange;
+}
+.state-line{
+    margin-top: -0.7rem;
+}
+.icon-at-one{
+    margin-left: 0.5rem;
+}
+.icon-1{
+   color: #000;
+   font-size: 18px;
+   
+}

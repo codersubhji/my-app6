@@ -1,0 +1,35 @@
+.icons{
+    font-size: 25px;
+    color: rgb(155, 4, 197) !important;
+    font-weight: 700;
+}
+
+.icons-1{
+    margin-right: 2rem;
+}
+
+.icons-2{
+    margin-right: 1.5rem;
+}
+.Nav1{
+    font-weight: 700 !important;
+    font-size: 30px;
+    color: rgb(155, 4, 197) !important;
+
+}
+
+@media (min-width:200px) and (max-width:600px){
+    .icons-1{
+        margin-right: 1rem;
+
+    }
+    .icons-2{
+        margin-right: 0.5rem;
+    }
+    .icons{
+        font-size: 22px;
+    }
+    .Nav1{
+        font-size: 25px;
+    }
+}
